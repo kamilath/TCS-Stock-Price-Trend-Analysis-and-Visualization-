@@ -38,5 +38,7 @@ This project analyzes and predicts the stock price trends of Tata Consultancy Se
 - Performance metrics including Mean Absolute Error (MAE) and R² score.
 ## Future Improvements
 1.Experiment with different architectures and hyperparameters.
+
 2.Incorporate additional features like trading volume or other technical indicators.
+
 3.Expand the model to analyze other stocks and market indices.
