@@ -26,11 +26,11 @@ This project analyzes and predicts the stock price trends of Tata Consultancy Se
 - Load the data by specifying the stock ticker: data = load_data('TCS.NS')
 - Train the model: model.fit(x_train, y_train, epochs=100)
 - Make predictions and visualize results:
-  - 'y_pred = model.predict(x_test)'
-  - 'plot_results(y_test, y_pred)'
+  - y_pred = model.predict(x_test)
+  - plot_results(y_test, y_pred)
 - Evaluate the model:
-  - 'print("Mean Absolute Error:", mae)'
-  - - 'print("R2 Score:", r2)'
+  - print("Mean Absolute Error:", mae)
+  - print("R2 Score:", r2)
 ## Results
 - Visual comparison of predicted vs. actual prices.
 - Performance metrics including Mean Absolute Error (MAE) and R² score.
