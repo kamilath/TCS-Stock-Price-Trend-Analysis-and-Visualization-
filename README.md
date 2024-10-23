@@ -23,8 +23,10 @@ This project analyzes and predicts the stock price trends of Tata Consultancy Se
   - `sklearn`
 
 ## Usage
-- Load the data by specifying the stock ticker: data = load_data('TCS.NS')
-- Train the model: model.fit(x_train, y_train, epochs=100)
+- Load the data by specifying the stock ticker:
+  - data = load_data('TCS.NS')
+- Train the model:
+  - model.fit(x_train, y_train, epochs=100)
 - Make predictions and visualize results:
   - y_pred = model.predict(x_test)
   - plot_results(y_test, y_pred)
